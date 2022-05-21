@@ -253,8 +253,15 @@ p {
 .home-banner .banner-content .search-filters select {
     border: 1px solid #000;
     border-radius: 6px;
-    padding: 12px 15px;
+    padding: 12px 25px 12px 10px;
     min-width: 261px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: #fff;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSdibGFjaycgaGVpZ2h0PScyNCcgdmlld0JveD0nMCAwIDI0IDI0JyB3aWR0aD0nMjQnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zyc+PHBhdGggZD0nTTcgMTBsNSA1IDUtNXonLz48cGF0aCBkPSdNMCAwaDI0djI0SDB6JyBmaWxsPSdub25lJy8+PC9zdmc+);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
 }
 
 .home-banner .banner-content button[name="search"] {
@@ -386,10 +393,11 @@ p {
         font-size: 12px;
         text-align: center;
         margin-left: 0;
+        margin-top: 5px;
     }
 
     #site-count div p span {
-        font-size: 22px;
+        font-size: 20px;
     }
 
 }
@@ -438,8 +446,8 @@ p {
     }
 
     #home-category .category-boxes .box {
-        width: 27%;
-        margin: 15px 3% 0;
+        width: 30%;
+        margin: 15px 3% 0 0;
     }
 
 }
@@ -700,9 +708,13 @@ p {
     justify-content: center;
 }
 
+#collaborate-memer .collaborate-memer-boxes .memer_box a span {
+    font-size: 14px;
+}
 
 #collaborate-memer .collaborate-memer-boxes .memer_box a span img.insta-icon {
-    width: 21px;
+    width: 18px;
+    height: 18px;
     margin-right: 5px;
 }
 
