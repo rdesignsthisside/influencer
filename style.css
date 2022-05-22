@@ -438,7 +438,7 @@ p {
 @media (max-width: 768px) {
 
     #home-category {
-        padding: 6% 3%;
+        padding: 6% 0 6% 3%;
     }
 
     #home-category .cat-title h2 {
@@ -446,8 +446,8 @@ p {
     }
 
     #home-category .category-boxes .box {
-        width: 30%;
-        margin: 15px 3% 0 0;
+        width: 30.3%;
+        margin: 2% 3% 0 0;
     }
 
 }
@@ -482,13 +482,16 @@ p {
 #home-explore-influencer .influencer-boxes .box {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
+}
+
+#home-explore-influencer .influencer-boxes .box span {
+    font-size: 18px;
 }
 
 #home-explore-influencer .influencer-boxes .box .name.review {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0 0 0;
+    padding: 10px 5px 0;
 }
 
 #home-explore-influencer .influencer-boxes .box .name.review .influencer-name span{
@@ -497,7 +500,7 @@ p {
 }
 
 #home-explore-influencer .influencer-boxes .box .name.review .influencer-name span img{
-    width: 16px;
+    max-width: 16px;
     margin-left: 7px;
 }
 
@@ -515,7 +518,8 @@ p {
 #home-explore-influencer .influencer-boxes .box .box-follower-count {
     display: flex;
     align-items: center;
-    padding: 10px 0 10px 0;
+    padding: 10px 5px 10px;
+    justify-content: space-between;
 }
 
 #home-explore-influencer .influencer-boxes .box .box-follower-count div {
@@ -532,8 +536,9 @@ p {
 }
 
 #home-explore-influencer .influencer-boxes .box .box-follower-count .instagram-count span img {
-    margin-right: 5px;
-    width: 18px;
+    margin-right: 3px;
+    max-width: 17px;
+    max-height: 16px;
 }
 
 #home-explore-influencer .influencer-boxes .box .box-follower-count .youtube-count span {
@@ -542,8 +547,8 @@ p {
 }
 
 #home-explore-influencer .influencer-boxes .box .box-follower-count .youtube-count span img {
-    margin-right: 5px;
-    width: 20px;
+    margin-right: 3px;
+    max-width: 18px;
 }
 
 #home-explore-influencer .influencer-boxes .box .collaborate-btn {
@@ -552,7 +557,7 @@ p {
     text-align: center;
     border: 1px solid #000;
     padding: 15px 0;
-    border-radius: 12px;
+    border-radius: 8px;
     color: #000;
 }
 
@@ -565,6 +570,10 @@ p {
     #home-explore-influencer .influencer-boxes .box .collaborate-btn {
         font-size: 12px;
         padding: 7px 0;
+    }
+
+    #home-explore-influencer .influencer-boxes .box span {
+        font-size: 14px;
     }
 
 }
@@ -639,8 +648,9 @@ p {
 
 @media (max-width: 768px) {
     #regiter-banner-section {
-        background-image: url(./Assets/img/register-banner-mob.png);
-        padding: 10% 0 90% 7%;
+        background-image: url(./Assets/img/register-banner-mob.png);    
+        padding: 10% 0 75% 7%;
+        background-size: 100% 100%;
     }
 
     #regiter-banner-section .content {
@@ -706,22 +716,28 @@ p {
 #collaborate-memer .collaborate-memer-boxes .memer_box a .meme_follower span {
     display: flex;
     justify-content: center;
+    font-size: 18px;
 }
 
 #collaborate-memer .collaborate-memer-boxes .memer_box a span {
     font-size: 14px;
+    align-items: center;
 }
 
 #collaborate-memer .collaborate-memer-boxes .memer_box a span img.insta-icon {
-    width: 18px;
-    height: 18px;
-    margin-right: 5px;
+    max-width: 17px;
+    max-height: 17px;
+    margin-right: 3px;
 }
 
 
 @media (max-width: 768px) {
     #collaborate-memer {
         padding: 12% 0 12% 3%;
+    }
+
+    #collaborate-memer .collaborate-memer-boxes .memer_box a .meme_follower span {
+        font-size: 13px;
     }
 }
 
