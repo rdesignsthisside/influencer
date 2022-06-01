@@ -259,15 +259,17 @@ h1, h2, h3, h4, h5, h6 {
     background-position-y: 5px;
 }
 
-.home-banner .banner-content button[name="search"] {
+.home-banner .banner-content a.search-btn {
     font-size: 16px;
     color: #fff;
     background-color: #000;
-    padding: 14px 48px;
+    padding: 10px 0;
     border-radius: 6px;
     border: 1px solid transparent;
-    margin-top: 31px;
+    margin: 31px auto 0;
+    max-width: 261px;
     cursor: pointer;
+    display: block;
 }
 
 
@@ -292,9 +294,14 @@ h1, h2, h3, h4, h5, h6 {
         width: 48%;
     }
 
-    .home-banner .banner-content .search-filters select.budget {
+    .home-banner .banner-content .search-filters select[name=budget] {
         width: 100%;
         margin-top: 20px;
+    }
+
+    .home-banner .banner-content a.search-btn { 
+        max-width: 100%;
+        padding: 10px 0;
     }
 
     .home-banner .banner-content .banner-heaader h1 {
