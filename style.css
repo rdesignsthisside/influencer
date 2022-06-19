@@ -24,7 +24,7 @@
     src: url(./Assets/font/Nimbus/Nimbus-Sans-regular-Italic.otf);
 }
 
-a, p {
+a, p, span {
     font-family: Nimbus-Sans-Regular;
     text-decoration: none;
 }
@@ -691,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .collaborate-memer {
-    padding: 4% 0 4% 3%;
+    padding: 4% 0 4% 5%;
 }
 
 .collaborate-memer .collaborate-memer-title h2 {
@@ -735,7 +735,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
     .collaborate-memer {
-        padding: 12% 0 12% 3%;
+        padding: 12% 0 12% 4%;
     }
 
     .collaborate-memer .collaborate-memer-boxes .memer_box a .meme_follower span {
@@ -758,6 +758,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .listing-page .listing-page-title h1 {
     font-weight: 500;
+    margin-left: 1%;
 }
 
 .listing-page .listing-page-cards {
@@ -776,7 +777,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .listing-page .listing-page-cards .custom-card span {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .listing-page .listing-page-cards .custom-card .name.review {
@@ -788,6 +789,7 @@ h1, h2, h3, h4, h5, h6 {
 .listing-page .listing-page-cards .custom-card .name.review .influencer-name span{
     display: flex;
     align-items: center;
+    font-family: 'Nimbus-Sans-Regular';
 }
 
 .listing-page .listing-page-cards .custom-card .name.review .influencer-name span img{
@@ -843,12 +845,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .listing-page .listing-page-cards .custom-card .collaborate-btn {
-    font-size: 14px;
+    font-size: 16px;
     font-family: Nimbus-Sans-Regular;
     text-align: center;
     border: 1px solid #000;
-    padding: 15px 0;
-    border-radius: 8px;
+    padding: 10px 0;
+    border-radius: 12px;
     color: #000;
     display: block;
     width: 100%;
@@ -883,12 +885,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .listing-page .listing-page-cards .custom-card .collaborate-btn {
-        font-size: 12px;
+        font-size: 13px;
         padding: 7px 0;
     }
 
     .listing-page .listing-page-cards .custom-card span {
-        font-size: 14px;
+        font-size: 13px;
     }
 
 }

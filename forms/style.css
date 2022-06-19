@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+.modal-header{
+	background-image:url("Image/Login/Mask Group 38@2x.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 250px;
+	background-position: center;
+}
+
+.modal-header .close {
+    padding: 9px 13px !important;
+    margin: 1px -2px !important;
+    background: #fff !important;
+    border-radius: 50px !important;
+	opacity: 1;
+}
+.modal-title .h5, h5{
+	color: #fff !important;
+	margin-top:50px!important;
+}
+
+    .btn-primary{
+		border:none!important;
+		color:#000!important;
+		background: transparent!important;
+		margin-left: 75px;
+}
+	.btn-primary:hover{
+		border:none!important;
+		color:#000!important;
+		background: transparent!important;
+		text-decoration: underline!important ;
+	}
+	.card{
+		border:none !important;
+	}
+	.btn-secondary{
+		border:none!important;
+		background: #000!important;
+		color: #fff!important;
+		font-size: 18px!important;
+		padding: 0.8rem 0.75rem!important;
+		
+		border-radius: 12px!important;
+	}
+.btn-secondary:hover{
+	    
+	    transition: 0.5s;
+}
+.card-title img{
+	margin-left:115px;
+}
+		
+.form-reg{
+	padding:45px!important;
+	margin:120px 0px !important;
+	
+	background-color: #fff!important;
+    border-radius:5px!important;
+	
+	
+}
+	
+.inf-form-hero{ 
+	background-color: #f9f9f9;
+      }
+	
+.form-control{
+	border:0.5px solid #515151!important;
+	padding: 0.8rem 0.75rem!important;
+	border-radius: 12px!important;
+	margin:25px 0px!important;
+	font-size: 15px!important;
+}
+.form-reg a{
+	color: #000!important;
+}
+.reg-a{
+	margin-top: 80px!important;
+}
+
+
+
+.form-check-input{
+	
+	
+}
+.field-group {
+    cursor: -webkit-grab; cursor: grab;
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin: 38px 5px;
+    border: dashed 1px #000;
+    border-radius: 5px;
+	max-width: 185px;
+}
+
+.field-group Span{
+	cursor: -webkit-grab; cursor: grab;
+}
+
+.field-group figure{
+	cursor: -webkit-grab; cursor: grab;
+}
+.file-field img{
+	cursor: -webkit-grab; cursor: grab;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts */
+
+@font-face {
+    font-family: Nimbus;
+    src: url("Font/") format("opentype");
+}
+
+@font-face {
+    font-family: GraublauWeb;
+    src: url("path/GraublauWebBold.otf") format("opentype");
+}
+
+
+/* Media queries */
+	
+	@media (max-width: 1200px) { 
+
+		.btn-primary{margin-left:0px;}
+	.card{
+		font-size:15px;
+		}	
+	.card-title img{
+	    margin-left:15px !important;
+		font-size: 12px!important;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+		.card-img-top{
+			width:150px;
+		}
+		.card-text img{
+			width:20px;
+		}
+		  .btn-secondary{
+		
+		font-size: 1rem;
+}
+	
+	}
