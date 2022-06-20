@@ -73,6 +73,14 @@
     display: none;
 }
 
+.social-tabs a.tablinks {
+    padding: 10px 30px;
+}
+
+.social-tabs a.tablinks.active {
+    border-bottom: 2px solid #000;
+}
+
 @media (max-width:992px) {
     .card-body {
         flex-direction: column;
@@ -153,8 +161,25 @@
         margin-bottom: 40px;
     }
 
-    .sidebar-toggled .mobile-sidebar .nav-item.active .nav-link {
+    .social-tabs-content .tab-items{
+        flex-direction: column;
+    }
 
+    .card-heading-text{
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .card-heading-text h6 {
+        font-size: 12px;
+    }
+
+    .card-heading-text .edit-profile a {
+        font-size: 12px;
+    }
+
+    .save-btn {
+        padding-left: 0px !important;
     }
 
 }

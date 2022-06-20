@@ -28,10 +28,10 @@
     <div id="wrapper">
 
 
-            <!-- Topbar -->
-            <nav class="navbar navbar-expand navbar-light bg-white topbar mb-5 static-top shadow">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-5 static-top shadow">
 
-                <!-- Sidebar - Brand -->
+            <!-- Sidebar - Brand -->
     
             <a class="sidebar-brand " href="../index.html">
                 <img src="../Assets/img/logo.svg" alt="">
@@ -211,163 +211,184 @@
                         <!-- Area Chart -->
                         <div class="col-xl-12 col-lg-12">
                             <div class="card shadow mb-4">
+
+
+                                <div class="card-header bg-white p-auto px-0 social-tabs">
+                                    <a href="#Instagram" class="tablinks active" onclick="openEvent(event, 'Instagram')" id="defaultOpen">Instagram</a>
+                                    <a href="#Youtube" class="tablinks" onclick="openEvent(event, 'Youtube')">Youtube</a>
+                                </div>
+
+
+
                                 <!-- Card Header - Dropdown -->
                                 <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold">MY PROFILE</h6>
+                                    class="pt-3 px-5 d-flex flex-row align-items-center justify-content-between card-heading-text">
+                                    <h6 class="m-0 font-weight-bold">SOCIAL MEDIA PROFILE</h6>
                                     <div class="edit-profile">
-                                       <a href="#editProfileData">Edit my Profile</a>
+                                       <a href="#editProfileData">Edit Profile</a>
                                     </div>
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body d-flex">
-                                    <div class="col-xl-5 px-4 col-lg-5 col-12">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="username">Username</label>
-                                                <input type="text" value="Akash_01" class="form-control" id="username" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                              <label for="followers">Followers Range</label>
-                                              <input type="text" value="Up to 20K followers" class="form-control" id="followers" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="category">Primary Category</label>
-                                                <input type="text" Value="Fashion" class="form-control" id="category" disabled>
-                                            </div>
-                                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                                          </form>
-                                    </div>
-                                    
 
-                                    <div class="col-xl-7 px-4 col-lg-7 col-12">
+                                    <div class="social-tabs-content col-12">
 
 
-
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="username">Username</label>
-                                                <input type="text" value="Akash_01" class="form-control" id="username" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                              <label for="followers">Followers Range</label>
-                                              <input type="text" value="Up to 20K followers" class="form-control" id="followers" disabled>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="category">Primary Category</label>
-                                                <input type="text" Value="Fashion" class="form-control" id="category" disabled>
-                                            </div>
-                                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
-                                          </form>
+                                        <div id="Instagram" class="tab-items">
+    
+    
+                                            <div class="col-xl-5 px-4 col-lg-5 col-12">
                                         
-                                    </div>
-
-
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Pie Chart -->
-                        <div class="col-xl-12 col-lg-12">
-                            <div class="card shadow mb-4" id="editProfileData">
-                                <!-- Card Header - Dropdown -->
-                                <div
-                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold">MY PROFILE</h6>
-                                    <div class="edit-profile">
-                                       <a href="">Save profile</a>
-                                    </div>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body d-flex">
-                                    <div class="col-xl-5 px-4 col-lg-5 col-12">
-                                        <form>
-                                            <div class="form-group">
-                                                <label for="yourName">Your Name</label>
-                                                <input type="text" class="form-control" id="yourName" aria-describedby="textField" placeholder="Enter your name">
-                                            </div>
-                                            <div class="form-group">
-                                              <label for="inputEmail">Your Email</label>
-                                              <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="phoneNo">Enter Your Number</label>
-                                                <input type="number" class="form-control" id="phoneNo" aria-describedby="phone" placeholder="Enter your number">
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="yourName">Gender</label>
-                                                <input type="text" class="form-control" id="yourName" aria-describedby="textField" placeholder="Enter your name">
-                                            </div>
-                                            
-                                            <div class="form-group">
-                                                <label for="budget">Budget Range</label>
-                                                <select name="budget" class="form-control" id="budget">
-                                                    <option value="None">Select Your Budget Range</option>
-                                                    <option value="10k">Upto 10k</option>
-                                                    <option value="50k">Upto 50k</option>
-                                                    <option value="100k">Upto 100k</option>
-                                                    <option value="500k">Upto 500k</option>
-                                                </select>
-                                            </div>
-                                            <button type="submit" class="btn btn-primary">Submit</button>
-                                          </form>
-                                    </div>
-                                    
-
-                                    <div class="col-xl-7 px-4 col-lg-7 col-12">
-
-
-
-                                        <form class="form-reg">
-                                            <p class="mb-0"><strong>Upload Your Profile Photos</strong></p>
-                                            <p>Max Upload 5 Photos</p>
-                                            <div class="form-group" required >
-                                                <div align="center" >
-                                                    <div class="field-group bg-grey">
-                                                        <input type="file" name="file[]" id="file" class="file-field d-none">
-                                                        <label for="file" class="file-label">
-                                                            <figure >
-                                                                <img src="../Assets/img/Upload-image.svg"/>
-                                                            </figure>
-                                                            <span>Choose a file&hellip;</span>
-                                                        </label>
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="username">Username</label>
+                                                        <input type="text" value="Akash_01" class="form-control" id="username">
                                                     </div>
-                                                </div>
+                                                    <div class="form-group">
+                                                        <label for="follower">Followers Range</label>
+                                                        <select name="follower" class="form-control" id="follower">
+                                                            <option value="None">Select Your Budget Range</option>
+                                                            <option value="10k">Upto 10k</option>
+                                                            <option value="50k">Upto 50k</option>
+                                                            <option value="100k">Upto 100k</option>
+                                                            <option value="500k">Upto 500k</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="category">Primary Category</label>
+                                                        <select name="category" class="form-control" id="category">
+                                                            <option value="none">Select Category</option>
+                                                            <option value="fashion">Fashion</option>
+                                                            <option value="Beauty">Beauty</option>
+                                                            <option value="health">Health & Fitness</option>
+                                                            <option value="gaming">Gaming</option>
+                                                            <option value="tech-gadget">Tech & Gadgets</option>
+                                                            <option value="finance">Finance</option>
+                                                            <option value="entertainment">Entertainment</option>
+                                                            <option value="food">Food</option>
+                                                            <option value="memer">Memer</option>
+                                                            <option value="all-cat">All Category</option>
+                                                        </select>
+                                                    </div>
+                                                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+
+                                                    
+                                                  </form>
                                             </div>
                                             
+        
+                                            <div class="col-xl-7 px-4 col-lg-7 col-12">
+        
+        
+        
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="account-reach">Account Reached</label>
+                                                        <input type="number" value="2024" class="form-control" id="account-reach">
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="engagement">Engagement</label>
+                                                      <input type="number" value="220" class="form-control" id="engagement">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="post-view">Post Max Views</label>
+                                                        <input type="number" Value="15753" class="form-control" id="post-view">
+                                                    </div>
 
-                                        </form>
+                                                  </form>
+                                                
+                                            </div>
 
-                                        <div class="form-group display-dashboard-img d-flex justify-content-between">
-                                            <div class="dashboard-img-box">
-                                                <img src="../Assets/img/8.png" alt="">
-                                            </div>
-                                            <div class="dashboard-img-box">
-                                                <img src="../Assets/img/8.png" alt="">
-                                            </div>
-                                            <div class="dashboard-img-box">
-                                                <img src="../Assets/img/8.png" alt="">
-                                            </div>
-                                            <div class="dashboard-img-box">
-                                                <img src="../Assets/img/8.png" alt="">
-                                            </div>
+
+                                            
+
                                         </div>
 
-                                        <div class="form-group">
-                                            <label for="aboutMe">About me</label>
-                                            <textarea rows="5" class="form-control" id="aboutMe" aria-describedby="textbox" placeholder="Tell us about yourself"></textarea>
-                                          </div>
-
-
                                         
+                                        
+
+
+                                    
+
+
+
+                                        <div id="Youtube" class="tab-items">
+    
+    
+                                            <div class="col-xl-5 px-4 col-lg-5 col-12">
+                                        
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="channel">Channel Name</label>
+                                                        <input type="text" value="Akash Muheshvari" class="form-control" id="channel">
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="subscribers">Subscribers</label>
+                                                      <input type="number" value="15000" class="form-control" id="subscribers">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="category">Primary Category</label>
+                                                        <select name="category" class="form-control" id="category">
+                                                            <option value="none">Select Category</option>
+                                                            <option value="fashion">Fashion</option>
+                                                            <option value="Beauty">Beauty</option>
+                                                            <option value="health">Health & Fitness</option>
+                                                            <option value="gaming">Gaming</option>
+                                                            <option value="tech-gadget">Tech & Gadgets</option>
+                                                            <option value="finance">Finance</option>
+                                                            <option value="entertainment">Entertainment</option>
+                                                            <option value="food">Food</option>
+                                                            <option value="memer">Memer</option>
+                                                            <option value="all-cat">All Category</option>
+                                                        </select>
+                                                    </div>
+
+                                                  </form>
+                                            </div>
+                                            
+        
+                                            <div class="col-xl-7 px-4 col-lg-7 col-12">
+        
+        
+        
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="account-reach">Account Reached</label>
+                                                        <input type="number" value="2024" class="form-control" id="account-reach">
+                                                    </div>
+                                                    <div class="form-group">
+                                                      <label for="engagement">Engagement</label>
+                                                      <input type="number" value="220" class="form-control" id="engagement">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label for="post-view">Video Max Views</label>
+                                                        <input type="number" Value="15753" class="form-control" id="post-view">
+                                                    </div>
+                                                    <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                                                  </form>
+                                                
+                                            </div>
+
+
+                                        </div>
+
+
+                                        <div class="col-6 pl-4 pt-3 save-btn">
+                                            <button type="submit" class="btn btn-primary">Save</button>
+                                        </div>
+
                                     </div>
+
+                                            
 
 
 
                                 </div>
+
                             </div>
                         </div>
+
+
 
 
                     </div>
@@ -421,6 +442,27 @@
             </div>
         </div>
     </div>
+
+
+    <script>
+        function openEvent(evt, eventName) {
+            var i, tabItems, tablinks;
+            tabItems = document.getElementsByClassName("tab-items");
+            for (i = 0; i < tabItems.length; i++) {
+            tabItems[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(eventName).style.display = "flex";
+            evt.currentTarget.className += " active";
+        }
+        
+            
+        document.getElementById("defaultOpen").click();
+    
+    </script>
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
