@@ -182,4 +182,8 @@
         padding-left: 0px !important;
     }
 
+    #wrapper #content-wrapper #content .container-fluid.p-5 {
+        padding: 30px 20px !important;
+    }
+
 }
