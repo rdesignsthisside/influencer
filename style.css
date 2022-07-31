@@ -763,6 +763,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 20px;
 }
 
+@media (max-width: 768px) {
+    .regular-brands .brand-logos .logos {
+        width: 25%;
+    }
+
+    .regular-brands .brand-logos .logos img {
+        width: 100%;
+    }
+
+}
+
 /* ====================== End Regular Brands Section =================== */
 
 
@@ -813,12 +824,42 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 14px;
 }
 
+@media (max-width: 768px) {
+
+    .top-acheivements .top-title {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .top-acheivements .top-title img {
+        max-width: 100%;
+    }
+    
+    .top-acheivements .acheivements-boxes {
+        flex-wrap: wrap;
+    }
+
+    .top-acheivements .acheivements-boxes .boxes {
+        max-width: 48%;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .top-acheivements .acheivements-boxes .boxes h3 {
+        font-size: 15px;
+    }
+
+    .top-acheivements .acheivements-boxes .boxes p {
+        font-size: 13px;
+    }
+}
+
 /* ============================= End Top Acheivement section ============================= */
 
 /* ============================= Four steps section ============================= */
 
 .four-easy-step {
-    padding: 4% 3%;
+    padding: 4% 3% 8%;
 }
 
 .four-easy-step .title {
@@ -883,6 +924,30 @@ h1, h2, h3, h4, h5, h6 {
 .four-easy-step .steps .boxes.step-2,
 .four-easy-step .steps .boxes.step-3 {
     margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+    .four-easy-step .title h2 {
+        font-size: 16px;
+    }
+
+    .four-easy-step .steps {
+        flex-wrap: wrap;
+    }
+    
+    .four-easy-step .steps .boxes.step-2, .four-easy-step .steps .boxes.step-3 {
+        margin-top: 20px;
+    }
+
+    .four-easy-step .steps .boxes {
+        max-width: 48%;
+        margin-top: 20px;
+    }
+
+    .four-easy-step .steps .boxes h3 {
+        font-size: 13px;
+    }
+
 }
 
 
