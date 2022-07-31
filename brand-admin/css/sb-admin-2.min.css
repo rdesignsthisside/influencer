@@ -102,6 +102,76 @@ table .decline-btn {
     text-align: center;
 }
 
+/* Brand Login */
+
+.cards-boxes {
+    display: flex;
+}
+
+.cards-boxes .card-box {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    border: 1px solid #F1F1F1;
+    padding: 8px;
+    border-radius: 13px;
+}
+
+.cards-boxes .card-box .influencer-name {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.cards-boxes .card-box .influencer-name p {
+    margin: 10px 0 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.cards-boxes .card-box .influencer-name span {
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+.cards-boxes .card-box .instagram-handle {
+    margin-bottom: 15px;
+}
+
+.cards-boxes .card-box .instagram-handle .handle span {
+    font-size: 14px;
+}
+
+.cards-boxes .card-box .instagram-handle p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+
+.cards-boxes .card-box .location  {
+    margin-bottom: 15px;
+}
+
+.cards-boxes .card-box .location span {
+    font-size: 14px;
+}
+
+.cards-boxes .card-box .call-btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 12px 15px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.credit-plan .plan-box {
+    border: 1px solid #000;
+    border-radius: 20px;
+}
+
+
 @media (max-width:992px) {
     .card-body {
         flex-direction: column;
