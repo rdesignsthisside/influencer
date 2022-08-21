@@ -166,9 +166,158 @@ table .decline-btn {
     border-radius: 6px;
 }
 
+.card-title h5 {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
 .credit-plan .plan-box {
     border: 1px solid #000;
     border-radius: 20px;
+    display: flex;
+    padding: 0;
+}
+
+.credit-plan .plan-box > div {
+    padding: 30px;
+}
+
+
+.credit-plan .plan-box .renew-plan {
+    background-color: #F6F6F6;
+    border-radius: 20px;
+}
+
+.credit-plan .plan-box .renew-plan p.plan-title {
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.credit-plan .plan-box .renew-plan .plan-price {
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid rgb(0 0 0 / 50%);
+    margin-bottom: 20px;
+}
+
+.credit-plan .plan-box .renew-plan .plan-price p {
+    font-size: 45px;
+    opacity: 0.5;
+    line-height: 52px;
+    color: #000;
+}
+
+.credit-plan .plan-box .renew-plan .plan-price span {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-left: 10px;
+    color: #000;
+}
+
+.credit-plan .plan-box .renew-plan p.plan-info {
+    font-size: 14px;
+    color: #000;
+    opacity: 0.5;
+    font-family: 'Nimbus-Sans-Bold';
+    margin-bottom: 30px;
+}
+
+.credit-plan .plan-box .renew-plan a.renew-plan-btn {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    background-color: #000;
+    padding: 14px 0;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.credit-plan .plan-box .credits-left h5 {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.credit-plan .plan-box .credits-left h2.total-left {
+    font-size: 60px;
+    line-height: 71px;
+}
+
+.credit-plan .plan-box .credits-left h3.total-count {
+    font-size: 26px;
+    line-height: 31px;
+}
+
+.credit-plan .plan-box .credits-left h6 {
+    font-size: 12px;
+    color: #E41515;
+}
+
+
+
+div#content.plans-content {
+    width: 100%;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+div#content.plans-content .choose-plans-section .title {
+    text-align: center;
+}
+
+div#content.plans-content .choose-plans-section .title h2 {
+    font-size: 22px;
+    font-family: 'NIMBUS-SANS-BOLD';
+}
+
+div#content.plans-content .choose-plans-section .title p {
+    color: #515151;
+    font-size: 14px;
+}
+
+div#content.plans-content .select-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#content.plans-content .select-plans .plan {
+    background-color: #fff;
+    width: 31%;
+    border-radius: 20px;
+    padding: 35px 25px;
+}
+
+div#content.plans-content .select-plans .plan h5 {
+    font-size: 16px;
+    font-family: 'Nimbus-Sans-Bold';
+    margin-bottom: 0;
+}
+
+div#content.plans-content .select-plans .plan .plan-price {
+    display: flex;
+    align-items: baseline;
+}
+
+div#content.plans-content .select-plans .plan .plan-price h2 {
+    font-size: 45px;
+    line-height: 53px;
+    font-family: 'Nimbus-Sans-Bold';
+}
+
+div#content.plans-content .select-plans .plan .plan-price span {
+    font-size: 14px;
+    font-family: 'Nimbus-Sans-Bold';
+    margin-left: 10px;
+}
+
+div#content.plans-content .select-plans .plan .collaboration-text {
+    background-color: #F3F3F3;
+    padding: 5px 10px;
+    display: flex;
+    border-radius: 15px;
 }
 
 
@@ -275,6 +424,64 @@ table .decline-btn {
 
     #wrapper #content-wrapper #content .container-fluid.p-5 {
         padding: 30px 20px !important;
+    }
+
+    .cards-boxes {
+        /* justify-content: space-between; */
+        flex-direction: column;
+    }
+
+    .cards-boxes .card-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .credit-plan .plan-box {
+        width: 100%;
+        max-width: 100%;
+        flex: none;
+        margin: 0;
+    }
+
+    .credit-plan .plan-box > div {
+        padding: 15px;
+    }
+    
+    .credit-plan .plan-box .renew-plan .plan-price p {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .credit-plan .plan-box .renew-plan .plan-price span {
+        font-size: 12px;
+    }
+    
+    .credit-plan .plan-box .renew-plan p.plan-info {
+        font-size: 12px;
+    }
+    
+    .credit-plan .plan-box .renew-plan a.renew-plan-btn {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    
+    .credit-plan .plan-box .credits-left h5 {
+        font-size: 14px;
+    }
+    
+    .credit-plan .plan-box .credits-left h2.total-left {
+        font-size: 34px;
+        line-height: 45px;
+    }
+    
+    .credit-plan .plan-box .credits-left h3.total-count {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    
+    .credit-plan .plan-box .credits-left h6 {
+        font-size: 10px;
     }
 
 }
