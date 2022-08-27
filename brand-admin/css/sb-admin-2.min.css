@@ -321,6 +321,8 @@ div#content.plans-content .select-plans .plan .collaboration-text {
 }
 
 
+
+
 @media (max-width:992px) {
     .card-body {
         flex-direction: column;

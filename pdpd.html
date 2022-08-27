@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer India</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./admin-dashboard/css/sb-admin-2.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
@@ -20,7 +21,7 @@
 
         <nav class="desktop-header">
             <div class="nav-logo">
-                <a href=""><img src="./Assets/img/logo.svg" alt=""></a>
+                <a href="./index.html"><img src="./Assets/img/logo.svg" alt=""></a>
             </div>
             <div class="menu-items">
                 <ul>
@@ -71,120 +72,168 @@
         
     </div>
 
-    <div class="main">
+    <div class="product-page">
 
-        <div class="home-banner">
-            <div class="banner-content">
-                <div class="banner-heaader">
-                    <h1>Find the Perfect Influencer for your brand.</h1>
-                    <p>Collaborate Influencers in 3 easy steps</p>
+        <div class="product-head">
+            
+            <div class="product-img">
+                <img src="./Assets/img/circle-girl.png" alt="">
+                <div class="product-name">
+                    <h4>Akasss</h4>
+                    <p>Fashion</p>
+                    <img src="./Assets/img/stars.png" class="review-stars">
                 </div>
-                <div class="banner-search">
-                    <div class="search-filters">
+            </div>
 
-                        <select name="category" id="category">
-                            <option value="none">Select Category</option>
-                            <option value="fashion">Fashion</option>
-                            <option value="Beauty">Beauty</option>
-                            <option value="health">Health & Fitness</option>
-                            <option value="gaming">Gaming</option>
-                            <option value="tech-gadget">Tech & Gadgets</option>
-                            <option value="finance">Finance</option>
-                            <option value="entertainment">Entertainment</option>
-                            <option value="food">Food</option>
-                            <option value="memer">Memer</option>
-                            <option value="all-cat">All Category</option>
-                        </select>
+            <div class="product-details">
+                <div class="city">
+                    <p>City</p>
+                    <div class="location">
+                        <img src="./Assets/img/icon/location.svg" alt="">
+                        <span>Delhi</span>
+                    </div>
+                </div>
 
-                        <select name="follower" id="follower">
-                            <option value="none">Select Followers Range</option>
-                            <option value="10k">Upto 10k</option>
-                            <option value="20k">Upto 20k</option>
-                            <option value="30k">Upto 30k</option>
-                            <option value="40k">Upto 40k</option>
-                            <option value="50k">Upto 50k</option>
-                            <option value="60k">Upto 60k</option>
-                            <option value="70k">Upto 70k</option>
-                            <option value="80k">Upto 80k</option>
-                            <option value="90k">Upto 90k</option>
-                        </select>
+                <div class="budget">
+                    <p>BUDGET RANGE</p>
+                    <div class="range">
+                        <img src="./Assets/img/icon/RS.svg" alt="">
+                        <span>Up to 10k</span>
+                    </div>
+                </div>
 
-                        <select name="budget" id="budget">
-                            <option value="None">Select Your Budget Range</option>
-                            <option value="10k">Upto 10k</option>
-                            <option value="50k">Upto 50k</option>
-                            <option value="100k">Upto 100k</option>
-                            <option value="500k">Upto 500k</option>
-                        </select>
+                <a href="" class="start-collaboration-btn">Start Collaboration</a>
 
+            </div>
+
+        </div>
+
+        <div class="social-media-boxes">
+            
+            <div class="instagram-box social-box">
+                <div class="social-media-title">
+                    <img src="./Assets/img/icon/Instagram_icon-lg.png" alt="">
+                    <p>Instagram</p>
+                </div>
+                <div class="social-media-fields">
+                    
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" value="Sonia" class="form-control">
                     </div>
 
-                    <a href="./listing-page.html" class="search-btn">Search</a>
+                    <div class="form-group">
+                        <label for="followers">Followers</label>
+                        <input type="text" name="followers" id="followers" value="11.5M Followers" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reach">Account Reached</label>
+                        <input type="number" name="reach" id="reach" value="12000" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="engage">Account Engagement</label>
+                        <input type="number" name="engage" id="engage" value="12000" class="form-control">
+                    </div>
+
                 </div>
             </div>
+
+            <div class="facebook-box social-box">
+                <div class="social-media-title">
+                    <img src="./Assets/img/icon/fb-lg.png" alt="">
+                    <p>Facebook</p>
+                </div>
+                <div class="social-media-fields">
+                    
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" value="Sonia" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="followers">Followers</label>
+                        <input type="text" name="followers" id="followers" value="11.5M Followers" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reach">Account Reached</label>
+                        <input type="number" name="reach" id="reach" value="12000" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="engage">Account Engagement</label>
+                        <input type="number" name="engage" id="engage" value="12000" class="form-control">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="youtube-box social-box">
+                <div class="social-media-title">
+                    <img src="./Assets/img/icon/yt-lg.png" alt="">
+                    <p>Instagram</p>
+                </div>
+                <div class="social-media-fields">
+                    
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username" value="Sonia" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subscribers">Subscribers</label>
+                        <input type="text" name="subscribers" id="subscribers" value="11.5M" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="views">Last Video Views</label>
+                        <input type="number" name="views" id="views" value="12000" class="form-control">
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="product-about-me">
+            <h4>About me</h4>
+            <p>Riya Kakkar started her journey with us 1 year ago. Being an influencer, she is very active towards all of social media handles. Riya Kakkar is an inspiration for her followers, she is always ready for another brand collaboration.</p>
+            <a href="" class="about-collab-btn">Start Collaboration</a>
         </div>
 
 
-        <div class="site-count">
+        <div class="product-image-gallery-section">
 
-            <div class="influencer-count">
-                <img src="./Assets/img/icon/influencer.png" alt="">
-                <p><span>100+</span>Influencer</p>
+            <div class="product-image-gallery owl-carousel">
+                    
+                <div class="img_box">
+                        <img src="./Assets/img/product-img-1.png" alt="" class="memer_logo">
+                </div>
+
+                <div class="img_box">
+                    <img src="./Assets/img/product-img-2.png" alt="" class="memer_logo">
+                </div>
+
+                <div class="img_box">
+                    <img src="./Assets/img/product-img-3.png" alt="" class="memer_logo">
+                </div>
+
+                <div class="img_box">
+                    <img src="./Assets/img/product-img-4.png" alt="" class="memer_logo">
+                </div>
+
             </div>
-
-            <div class="Brand-count">
-                <img src="./Assets/img/icon/brands.png" alt="">
-                <p><span>50+</span>Regular Brands</p>
-            </div>
-
-            <div class="Ratings">
-                <img src="./Assets/img/icon/stars.png" alt="">
-                <p><span>4.5</span>Star Ratings</p>
-            </div>
-
+          
         </div>
 
-        <div class="home-category">
-            <div class="cat-title">
-                <h2>Popular Influencer Category</h2>
-            </div>
-            <div class="category-boxes">
-                <div class="box box-1">
-                    <a href=""><img src="./Assets/img/category/1.png" alt=""></a>
-                </div>
-                <div class="box box-2">
-                    <a href=""><img src="./Assets/img/category/2.png" alt=""></a>
-                </div>
-                <div class="box box-3">
-                    <a href=""><img src="./Assets/img/category/3.png" alt=""></a>
-                </div>
-                <div class="box box-4">
-                    <a href=""><img src="./Assets/img/category/4.png" alt=""></a>
-                </div>
-                <div class="box box-5">
-                    <a href=""><img src="./Assets/img/category/5.png" alt=""></a>
-                </div>
-                <div class="box box-6">
-                    <a href=""><img src="./Assets/img/category/6.png" alt=""></a>
-                </div>
-                <div class="box box-7">
-                    <a href=""><img src="./Assets/img/category/7.png" alt=""></a>
-                </div>
-                <div class="box box-8">
-                    <a href=""><img src="./Assets/img/category/8.png" alt=""></a>
-                </div>
-                <div class="box box-9">
-                    <a href=""><img src="./Assets/img/category/9.png" alt=""></a>
-                </div>
-                <div class="box box-10">
-                    <a href=""><img src="./Assets/img/category/10.png" alt=""></a>
-                </div>
-            </div>
-        </div>
+
 
         <div class="home-explore-influencer">
             <div class="explore-influencer-title">
-                <h2>Explore Best Influencer</h2>
+                <h2>Related Influencers</h2>
             </div>
             <div class="influencer-boxes owl-carousel">
                 <div class="custom-box">
@@ -206,10 +255,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
-                
+
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -229,11 +278,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -253,11 +301,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -277,11 +324,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -301,11 +347,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -325,11 +370,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -349,11 +393,10 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
 
-                
                 <div class="custom-box">
                     <!-- <a href=""> -->
                         <img src="./Assets/img/8.png" alt="">
@@ -373,158 +416,13 @@
                                 <span><img src="./Assets/img/icon/youtube.png" alt="">5k</span>
                             </div>
                         </div>
-                        <a href="pdpd.html" class="collaborate-btn">Collaborate</a>
+                        <a href="" class="collaborate-btn">Collaborate</a>
                     <!-- </a> -->
                 </div>
-
-                
-            
-
-            </div>
-        </div>
-        
-
-        <div class="regiter-banner-section">
-            <div class="content">
-                <h4>Are you a Influencer?</h4>
-                <h2>1000+ Brands are waiting for you to Collaborate.</h2>
-                <div class="points">
-                    <div class="point">
-                        <span><img src="./Assets/img/icon/green-tick.png" alt="">Connect with 1000+ Brands</span>
-                    </div>
-                    <div class="point">
-                        <span><img src="./Assets/img/icon/green-tick.png" alt="">Earn Upto 10k to 1Lakh*</span>
-                    </div>
-                    <div class="point">
-                        <span><img src="./Assets/img/icon/green-tick.png" alt="">Easy Registration</span>
-                    </div>
-                </div>
-                <a href="" class="regiter-banner-btn">Register now</a>
-            </div>
-        </div>
-
-        <div class="collaborate-memer">
-            <div class="collaborate-memer-title">
-                <h2>Collaborate with Memer</h2>
-            </div>
-            <div class="collaborate-memer-boxes owl-carousel">
-                
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="memer_box">
-                    <a href="">
-                        <img src="./Assets/img/meme-icon.png" alt="" class="memer_logo">
-                        <div class="meme_follower">
-                            <span><img src="./Assets/img/icon/Instagram_icon.png" alt="" class="insta-icon"> 11.5 M</span>
-                        </div>
-                    </a>
-                </div>
-
 
             </div>
         </div>
 
-        <div class="regular-brands">
-
-            <div class="brand-title">
-                <h2>Regular Brands</h2>
-            </div>
-
-            <div class="brand-logos">
-
-                <div class="logos">
-                    <img src="./Assets/img/brand-logos/client-1.png" alt="">
-                </div>
-                <div class="logos">
-                    <img src="./Assets/img/brand-logos/client-2.png" alt="">
-                </div>
-                <div class="logos">
-                    <img src="./Assets/img/brand-logos/client-3.png" alt="">
-                </div>
-
-
-
-            </div>
-        </div>
 
         <div class="top-acheivements">
             <div class="top-title">
@@ -574,57 +472,30 @@
 
         </div>
 
-        <div class="four-easy-step">
-            <div class="title">
-                <h2>Collaborate with Influencer in 4 easy step</h2>
-            </div>
-
-            <div class="steps">
-                <div class="step-1 boxes">
-                    <div class="counting">
-                        <span>1</span>
-                    </div>
-                    <img src="./Assets/img/icon/influencer.png" alt="">
-                    <h3 class="step-title">Choose your desired influencer</h3>
-                    <p>You need to unlock the influencer card to see Contact details</p>
-                </div>
-                <div class="step-2 boxes">
-                    <div class="counting">
-                        <span>2</span>
-                    </div>
-                    <img src="./Assets/img/step-2.png" alt="">
-                    <h3 class="step-title">Login or Create Account</h3>
-                    <p>Simple join via mobile number</p>
-                </div>
-                <div class="step-3 boxes">
-                    <div class="counting">
-                        <span>3</span>
-                    </div>
-                    <img src="./Assets/img/step-3.png" alt="">
-                    <h3 class="step-title">Select your plan</h3>
-                    <p>Choose the plan, Starting Rs.199</p>
-                </div>
-                <div class="step-4 boxes">
-                    <div class="counting">
-                        <span>4</span>
-                    </div>
-                    <img src="./Assets/img/step-4.png" alt="">
-                    <h3 class="step-title">Complete</h3>
-                    <p>Now connect your influencer according to your business.</p>
-                </div>
-
-
-            </div>
-
-
-
-        </div>
-
 
     </div>
 
-    
     <script>
+        $('.collaborate-memer-boxes.owl-carousel').owlCarousel({
+            loop:true,
+            autoplay:true,
+            margin:40,
+            dots: false,
+            nav:false,
+            responsive:{
+                0:{
+                    items:3.5
+                },
+                600:{
+                    items:4.5
+                },
+                1000:{
+                    items:6.75
+                }
+            }
+        });
+
+
         $('.influencer-boxes.owl-carousel').owlCarousel({
             loop:true,
             autoplay:true,
@@ -645,41 +516,27 @@
         });
 
 
-        $('.collaborate-memer-boxes.owl-carousel').owlCarousel({
-            loop:true,
-            autoplay:true,
-            margin:40,
-            dots: false,
-            nav:false,
-            responsive:{
-                1000:{
-                    items:6.75
-                },
-                600:{
-                    items:3.5
-                },
-                450:{
-                    items:2.5
-                },
-                360:{
-                    items:2.5
-                }
+        $('.product-image-gallery.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay:true,
+        margin:40,
+        dots: false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1.5
+            },
+            600:{
+                items:2.5
+            },
+            1000:{
+                items:3.5
             }
-        });
-
-        $(document).ready(function(){
-            $(".mob-menu-burger").click(function() {
-                $(".mobile-header ul").toggle();
-            });
-        });
-
-        $(document).ready(function(){
-            $(".close-menu").click(function() {
-                $(".mobile-header ul").toggle();
-            });
-        });
+        }
+    });
 
     </script>
+
 
 </body>
 </html>
